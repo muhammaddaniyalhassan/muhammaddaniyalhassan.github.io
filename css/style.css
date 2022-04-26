@@ -41,14 +41,14 @@ display: flex;
 }
 
 .card .content .title{
-font-size: 25px;
+font-size: 40px;
 font-weight: 600;
 }
 
 .card .content .sub-title{
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 600;
-  color: #e74c3c;
+  color: #00141f;
   line-height: 20px;
   }
 
@@ -64,7 +64,7 @@ font-weight: 600;
   }
 
   .card .content .btn1 button{
-    background: #e74c3c;
+    background: #00141f;
     color: #fff;
     border: none;
     outline: none;
@@ -77,6 +77,8 @@ font-weight: 600;
 
   .card .content .btn1 button:hover{
     transform: scale(0.9);
+    background-color: #fa1d86;
+    color: #fff;
   }
 
 .slider1{
