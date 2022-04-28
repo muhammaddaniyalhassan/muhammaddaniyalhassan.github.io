@@ -13,6 +13,52 @@
   transition: all .2s linear;
 }
 
+.know_about_us{
+  margin-top: 80px;
+}
+
+.who_are_we{
+
+  width: 50%;
+  height: fit-content;
+  float: left;
+}
+
+.heading_who{
+  color: #00141f;
+  font-size: xx-large;
+
+}
+
+.subheading_who{
+  color: #fa1d86;
+  font-size: larger;
+}
+
+.content_who{
+  color: #00141f;
+  font-size: medium;
+  width: fit-content;
+}
+
+.what_do_we_do{
+
+  width: 45%;
+  height: fit-content;
+  float: right;
+
+}
+
+.why_us{
+  margin-top: 40px;
+  width: 50%;
+  height: fit-content;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+
 .slider{
 max-width:  95%;
 display: flex;
