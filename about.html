@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>about</title>
+    <title>About</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -19,19 +21,20 @@
 
 <header class="header">
 
-    <a href="home.html" class="logo"> <i class="fas fa-graduation-cap"></i> educa </a>
-
+    <a href="index.html" class="logo"><img class="logoo" src="images/logo.jpg">
+        Cyber Force Initiative </a>
     <div id="menu-btn" class="fas fa-bars"></div>
 
     <nav class="navbar">
         <ul>
-            <li><a href="home.html">home</a></li>
+            <li><a href="index.html">home</a></li>
             <li><a href="about.html">about</a></li>
-            <li><a href="#">courses +</a>
+            <li><a href="course.html">courses +</a>
                 <ul>
-                    <li><a href="course-1.html">course 01</a></li>
-                    <li><a href="course-2.html">course 02</a></li>
-                    <li><a href="course-3.html">course 03</a></li>
+                    <li><a href="course-1.html">Cyber Security</a></li>
+                    <li><a href="course-2.html">Learn Linux</a></li>
+                    <li><a href="course-3.html">Networking</a></li>
+                    <li><a href="course-4.html">Become a Full Stack Web Developer</a></li>
                 </ul>
             </li>
             <li><a href="#">pages +</a>
@@ -58,19 +61,72 @@
 <section class="about">
 
     <div class="image">
-        <img src="images/about-img.png" alt="">
+        <img src="images/aboutus.png" alt="">
     </div>
 
     <div class="content">
-        <h3>I will stay with you until you pass your exam.</h3>
+        <h3 style="font-size: 70px;color: #00141f;">CFI</h3>
+        <h4 style="color: #fa1d86;font-size: 20px;">Cyber Initiative Force</h4>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id ducimus at maiores repellat aut debitis aliquam esse, quisquam nobis laborum velit voluptate excepturi obcaecati dignissimos omnis. Fugiat hic quod nobis?</p>
-        <a href="#" class="btn">learn more</a>
     </div>
 
 </section>
-
 <!-- about section ends -->
 
+<!-- Questions -->
+
+<section class="about_questions">
+    <div>
+        <h1 style="font-size: xx-large;">What Do We Do?</h1><br>
+        <p style="font-size: large;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis aspernatur, optio eos nemo aut error architecto delectus quaerat. Tenetur vitae voluptatibus nemo eaque natus earum atque placeat deleniti quod rerum.</p>
+        <br>
+        <h1 style="font-size: xx-large;">Why Us?</h1><br>
+        <p style="font-size: large;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis aspernatur, optio eos nemo aut error architecto delectus quaerat. Tenetur vitae voluptatibus nemo eaque natus earum atque placeat deleniti quod rerum.</p>
+    </div>
+
+
+</section>
+
+<!-- Question Section Ends -->
+
+<!-- FAQS -->
+<div class="faq_heading">
+    <img style="width: 30%;height: auto;float: left;" src="images/faqs.png" alt="">
+    <h1 style="text-align: left;"><br>Frequently<br>Asked<br>Questions</h1>
+</div>
+<button class="accordion">Question 1</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Question 2</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Question 3</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+      });
+    }
+    </script>
+
+<!--FAQS Section Ends Here-->
 
 
 
@@ -142,7 +198,6 @@
 
     </div>
 
-    <div class="credit"> created by <span>mr. web designer</span> | all rights reserved! </div>
 
 </section>
 
