@@ -13,6 +13,7 @@
   transition: all .2s linear;
 }
 
+
 .know_about_us{
   margin-top: 80px;
 }
@@ -58,82 +59,6 @@
   margin-right: 20%;
 }
 
-
-.slider{
-max-width:  95%;
-display: flex;
-}
-
-.slider .card {
-
-  background: #fff ;
-  flex: 1;
-  margin: 0 10px;
-}
-
-.slider .card .img{
-  height: 210px;
-  width: 100%;
-}
-
-.slider .card .img img{
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-.slider .card .content1{
-  padding: 10px 20px;
-}
-
-.card .content .title{
-font-size: 40px;
-font-weight: 600;
-}
-
-.card .content .sub-title{
-  font-size: 30px;
-  font-weight: 600;
-  color: #00141f;
-  line-height: 20px;
-  }
-
-  .card .content p{
-    text-align: justify;
-    margin: 10px 0;
-  }
-
-  .card .content .btn1{
-    display: block;
-    text-align: left;
-    margin: 10px 0;
-  }
-
-  .card .content .btn1 button{
-    background: #00141f;
-    color: #fff;
-    border: none;
-    outline: none;
-    font-size: 17px;
-    padding: 5px 8px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.2s;
-  }
-
-  .card .content .btn1 button:hover{
-    transform: scale(0.9);
-    background-color: #fa1d86;
-    color: #fff;
-  }
-
-.slider1{
-  display: grid;
-  height: 100%;
-  place-items: center;
-  text-align: center;
-  background: #f2f2f2;
-}
 
 .about_questions{
   width:auto;
