@@ -2,7 +2,7 @@
  * Solution by GetTemplates.co
  * URL: https://GetTemplates.co
  */
-@font-face {
+ @font-face {
   font-family: "Lato-Regular";
   src: url(../fonts/Lato-Regular.ttf);
 }
@@ -211,7 +211,22 @@ body {
   }
 }
 
-.gtco-banner-area a, .gtco-feature a, .gtco-features a, .gtco-news .owl-carousel .card a, #gtco-footer .submit-button {
+.gtco-banner-area a, .gtco-feature a, .gtco-news .owl-carousel .card a, #gtco-footer .submit-button {
+  background-image: -moz-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
+  background-image: -webkit-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
+  background-image: -ms-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
+  font-size: 18px;
+  font-family: "OpenSans-Semibold";
+  color: #fff;
+  border-radius: 50px;
+  padding: 5px 30px;
+  display: inline-block;
+  text-transform: uppercase;
+  padding-right: 5px;
+  text-decoration: none !important;
+}
+
+.button122 {
   background-image: -moz-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
   background-image: -webkit-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
   background-image: -ms-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
@@ -382,7 +397,7 @@ body {
 .detailed_services2 {
   max-width: 55%;
   margin-top: -250px;
-  text-align: center;
+  text-align: left;
 }
 
 .icon2 {
@@ -409,7 +424,21 @@ body {
 
 }
 
+.detailed_services4 {
+  max-width: 55%;
+  margin-top: -270px;
+  text-align: left;
+  margin-left: 300px;
 
+}
+
+.icon4 {
+  float: left;
+  max-width: 40%;
+  float: left;
+  margin-top: -320px;
+
+}
 
 .gtco-features .col-lg-8 {
   padding: 10px 100px;
